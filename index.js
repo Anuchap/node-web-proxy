@@ -9,5 +9,5 @@ var httpProxy = require('http-proxy');
 
 
 httpProxy.createProxyServer({
-    target: 'https://pantip.com/topic/32389898'
+    target: 'https://pantip.com:80'
 }).listen(process.env.PORT);
